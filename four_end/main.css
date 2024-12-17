@@ -1,0 +1,153 @@
+body {
+	/* border: solid 1px #000; */
+	/* margin: 0; */
+	/* padding: 0; */
+	height: 100%;
+	margin: 0;
+	margin-bottom: 0;
+	background-color: rgba(0, 104, 52, 0.384);
+}
+
+html {
+	height: 100%;
+}
+
+#cCc {
+	background: linear-gradient(45deg, red, white, red, white, red, white, red, white, red, white, red, white);
+	background-clip: text;
+	color: transparent;
+	text-shadow: 0 0 0 ;
+}
+
+#glob-cntl {
+	z-index: 1;
+	background-color: rgb(10, 46, 46);
+	height: 2vmax;
+	top: 0;
+	position: fixed;
+	width: 100%;
+}
+
+#present {
+	/* filter: blur(0.25vmax); */
+}
+
+#index {
+	padding: 1vmax;
+	padding-bottom: 0;
+	display: block;
+	/* background-color: rgba(0, 104, 52, 0.384); */
+	/* background-color: rgb(148, 121, 46); */
+	/* height: 100%; */
+	/* width: 100%; */
+}
+
+#account {
+	display: none;
+	z-index: 1;
+	position: fixed;
+	/* background-color: rgb(148, 121, 46); */
+	/* background-color: rgba(0, 104, 52, 0.384); */
+	transform: translateX(50%);
+	left: 0;
+	top: 15vmax;
+	/* background-color: black; */
+	height: 22vmax;
+	width: 50%;
+}
+
+#game {
+	display: none;
+	background-color: rgb(148, 121, 46);
+	/* background-color: rgba(0, 104, 52, 0.384); */
+	height: 100%;
+}
+
+.text {
+	/* filter: contrast(1.25); */
+	border-radius: 1vmax;
+	background-color: rgba(0, 77, 13, 0.418);
+	height: 100%;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 2vmax;
+	padding: 1vmax;
+	margin: 2vmax;
+	box-shadow: 0 0 0.5vmax 0.1vmax rgb(0, 0, 0);
+}
+
+#xxl-header {
+	position: relative;
+	z-index: 1;
+	/* backdrop-filter: blur(0.25vmax); */
+	white-space: nowrap;
+	text-align: center;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 10vmax;
+	text-shadow: rgba(255, 230, 0, 0.637) -0.5vmax 0vmax 0.5vmax, rgb(103, 182, 0) 0.25vmax -0.25vmax 0.5vmax;
+	color: rgb(41, 0, 68);
+	/* background-color: rgba(133, 59, 59, 0); */
+	background: linear-gradient(to top, #ffffff00, #ffffff00, #ffffff00, #420033cb, #4200336e, #42003344, #ffffff00, #ffffff00, #ffffff00 , #ffffff00, #ffffff00, #ffffff00, #ffffff00);
+	border-radius: 5vmax;
+	margin: auto;
+	width: min-content;
+}
+
+.btn-play {
+	width: 10vmax;
+	height: 70%;
+	background-color: rgb(58, 0, 24);
+}
+
+.btn-norm {
+	margin: 2vmax;
+	width: 20vmax;
+	height: 4vmax;
+	background-color: rgb(44, 35, 51);
+
+}
+
+.btn-big {
+	user-select: none;
+	cursor: pointer;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 2vmax;
+	text-shadow: springgreen 0.1vmax 0.1vmax 0.25vmax, springgreen -0.1vmax -0.1vmax 0.25vmax, springgreen 0.1vmax -0.1vmax 0.25vmax, springgreen -0.1vmax 0.1vmax 0.25vmax;
+	font-weight: bold;
+	/* border: solid 0.0vmin rgb(98, 98, 99); */
+	box-shadow: 0vmax 0vmax 0.5vmax 0.1vmax rgb(255, 255, 255);
+	border-radius: 0.5vmax;
+	box-sizing: border-box;
+
+	/* auto space between items */
+	margin-left: auto;
+	margin-right: auto;
+
+	/* center text */
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.plane-spx {
+	box-shadow: orangered 0 0 1.5vmax 0.75vmax;
+	backdrop-filter: blur(0.25vmax);
+	border-radius: 0.25vmax;
+	background-color: rgba(0, 19, 19, 0.575);
+	border-radius: 0.75vmax;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	position: sticky;
+	height: 5vmax;
+	width: 100%;
+	bottom: 1vmax;
+	left: 0;
+	/* margin-bottom: 0.5vmax; */
+	/* background: #333; */
+	/* border-top: solid 6px #000; */
+	/* box-sizing: border-box; */
+}
