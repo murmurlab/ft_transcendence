@@ -1,6 +1,7 @@
 const	mode = document.getElementById("mode")
 const	play = document.getElementById("play1")
 
+const	overlay = document.getElementById("overlay")
 const	header = document.getElementById("xxl-header")
 const	account = document.getElementById("account")
 const	game = document.getElementById("game")
@@ -16,11 +17,13 @@ play.addEventListener("click", e=>{
 		header.style.position = "sticky"
 		header.style.top = "1vmax"
 		present.style.filter = "blur(0.25vmax)"
+		overlay.style.display = "block"
 	} else {
 		account.style.display = "none"
 		header.style.position = "relative"
 		header.style.top = 0
 		present.style.filter = "blur(0)"
+		overlay.style.display = "none"
 	}
 	
 })
